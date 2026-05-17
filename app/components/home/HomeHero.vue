@@ -35,8 +35,8 @@ onMounted(() => {
         Five new ways to experience Blue Jays baseball — from the field-level TD Clubhouse to the WestJet Flight Deck.
       </p>
       <div data-anim class="mt-10 flex flex-wrap gap-4">
-        <BaseButton size="lg" as="NuxtLink" to="/venues">Explore Venues</BaseButton>
-        <BaseButton variant="ghost" size="lg" as="NuxtLink" to="/inquire">Plan Your Visit</BaseButton>
+        <BaseButton variant="accent" size="lg" as="NuxtLink" to="/venues">Explore Venues</BaseButton>
+        <BaseButton variant="on-dark" size="lg" as="NuxtLink" to="/inquire">Plan Your Visit</BaseButton>
       </div>
     </div>
   </section>

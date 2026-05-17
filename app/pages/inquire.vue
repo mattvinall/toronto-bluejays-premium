@@ -6,13 +6,13 @@ useHead({ title: 'Plan Your Visit — Blue Jays Premium' })
 const route = useRoute()
 
 const form = reactive<InquiryInput>({
-  venueSlug: (route.query.venue as string) || '',
-  preferredDate: (route.query.date as string) || '',
+  venueSlug: String(route.query.venue ?? ''),
+  preferredDate: String(route.query.date ?? ''),
   groupSize: 0,
   occasion: undefined,
   contact: { firstName: '', lastName: '', email: '', phone: '', company: '' },
   notes: '',
-  consent: true   // schema requires literal(true); checkbox flips off + back on
+  consent: false
 })
 
 const currentStep = ref(0)
@@ -104,7 +104,7 @@ const submit = async () => {
         :errors="errors"
         @update:contact="form.contact = $event"
         @update:notes="form.notes = $event"
-        @update:consent="form.consent = $event as true"
+        @update:consent="form.consent = $event"
       />
 
       <div class="mt-12 flex justify-between">

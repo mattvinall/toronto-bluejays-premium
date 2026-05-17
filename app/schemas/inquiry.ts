@@ -13,7 +13,7 @@ export const inquirySchema = z.object({
     company: z.string().optional()
   }),
   notes: z.string().max(1000).optional(),
-  consent: z.literal(true, { errorMap: () => ({ message: 'Required to submit' }) })
+  consent: z.boolean().refine(v => v === true, { message: 'You must consent to be contacted before submitting' })
 })
 
 export type InquiryInput = z.infer<typeof inquirySchema>

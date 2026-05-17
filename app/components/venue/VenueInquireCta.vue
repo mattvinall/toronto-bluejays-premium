@@ -3,7 +3,7 @@ import type { Venue } from '~/types/venue'
 
 const props = defineProps<{ venue: Venue }>()
 const compare = useCompareStore()
-const isSaved = computed(() => compare.has(props.venue.slug).value)
+const isSaved = computed(() => compare.has(props.venue.slug))
 </script>
 
 <template>

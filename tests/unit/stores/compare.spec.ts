@@ -34,8 +34,8 @@ describe('useCompareStore', () => {
   it('toggle() adds then removes', () => {
     const s = useCompareStore()
     s.toggle('a')
-    expect(s.has('a').value).toBe(true)
+    expect(s.has('a')).toBe(true)
     s.toggle('a')
-    expect(s.has('a').value).toBe(false)
+    expect(s.has('a')).toBe(false)
   })
 })
