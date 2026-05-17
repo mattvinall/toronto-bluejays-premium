@@ -17,6 +17,9 @@ export default defineNuxtConfig({
   },
   css: ['~/assets/css/main.css'],
   vite: { plugins: [tailwindcss()] },
+  components: [
+    { path: '~/components', pathPrefix: false }
+  ],
   modules: [
     '@pinia/nuxt',
     '@nuxt/image',
