@@ -18,3 +18,20 @@ body { @apply bg-white text-slate-900 antialiased font-body; }
 ::view-transition-new(root) {
   animation-duration: 250ms;
 }
+
+.reveal-pending {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 700ms ease-out, transform 700ms ease-out;
+}
+.is-revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+@media (prefers-reduced-motion: reduce) {
+  .reveal-pending {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}

@@ -1,7 +1,7 @@
 <template>
   <section class="max-w-5xl mx-auto px-6 py-24">
     <p class="text-jays-red font-medium tracking-widest uppercase text-sm mb-4">$300M Renovation</p>
-    <h2 class="font-display font-bold text-4xl md:text-5xl leading-tight mb-6">
+    <h2 v-reveal class="font-display font-bold text-4xl md:text-5xl leading-tight mb-6">
       A two-year reinvention of Canada's only MLB ballpark.
     </h2>
     <div class="prose prose-lg max-w-none text-slate-700">

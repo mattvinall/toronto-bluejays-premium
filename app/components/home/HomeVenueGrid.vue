@@ -5,7 +5,7 @@ const { venues } = useVenues()
 <template>
   <section class="max-w-7xl mx-auto px-6 py-24">
     <div class="flex items-end justify-between mb-12">
-      <div>
+      <div v-reveal>
         <p class="text-jays-red font-medium tracking-widest uppercase text-sm mb-2">Premium Venues</p>
         <h2 class="font-display font-bold text-4xl">Five spaces. One ballpark.</h2>
       </div>
