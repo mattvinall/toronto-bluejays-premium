@@ -14,10 +14,10 @@ const isSaved = computed(() => compare.has(props.venue.slug).value)
         <p class="mt-2 text-white/80">Tell us about your group and a Blue Jays premium associate will follow up within one business day.</p>
       </div>
       <div class="flex gap-3 flex-shrink-0">
-        <BaseButton variant="ghost" size="lg" @click="compare.toggle(venue.slug)">
+        <BaseButton variant="on-dark" size="lg" @click="compare.toggle(venue.slug)">
           {{ isSaved ? 'Saved to compare' : 'Add to compare' }}
         </BaseButton>
-        <BaseButton size="lg" as="NuxtLink" :to="`/inquire?venue=${venue.slug}`">
+        <BaseButton variant="accent" size="lg" as="NuxtLink" :to="`/inquire?venue=${venue.slug}`">
           Plan Your Visit
         </BaseButton>
       </div>
