@@ -12,7 +12,7 @@ defineProps<{ venue: Venue }>()
       class="absolute inset-0 w-full h-full object-cover opacity-60"
       loading="eager"
       fetchpriority="high"
-      sizes="100vw"
+      sizes="sm:100vw md:100vw lg:100vw xl:100vw"
     />
     <div class="relative max-w-7xl mx-auto px-6 h-full flex flex-col justify-end pb-12 text-white">
       <p class="text-jays-red font-medium tracking-widest uppercase text-sm mb-2">{{ venue.type.replace('-', ' ') }}</p>

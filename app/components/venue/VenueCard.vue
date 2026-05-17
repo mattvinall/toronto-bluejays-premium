@@ -40,7 +40,7 @@ const onToggle = (e: MouseEvent) => {
         :alt="venue.images.hero.alt"
         class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
         loading="lazy"
-        sizes="(min-width: 1024px) 400px, 50vw"
+        sizes="sm:50vw md:50vw lg:400px"
       />
     </div>
     <div class="p-5">

@@ -8,7 +8,7 @@ defineProps<{ images: VenueImage[] }>()
     <h2 class="font-display font-bold text-3xl mb-8">Gallery</h2>
     <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
       <figure v-for="img in images" :key="img.src">
-        <NuxtImg :src="img.src" :alt="img.alt" class="w-full h-72 object-cover rounded-md" loading="lazy" sizes="(min-width: 1024px) 33vw, 50vw" />
+        <NuxtImg :src="img.src" :alt="img.alt" class="w-full h-72 object-cover rounded-md" loading="lazy" sizes="sm:50vw md:33vw lg:33vw" />
         <figcaption v-if="img.caption" class="mt-2 text-sm text-slate-600">{{ img.caption }}</figcaption>
       </figure>
     </div>

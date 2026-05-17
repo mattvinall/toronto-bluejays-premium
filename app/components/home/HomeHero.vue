@@ -24,7 +24,7 @@ onMounted(() => {
       class="absolute inset-0 w-full h-full object-cover opacity-40"
       loading="eager"
       fetchpriority="high"
-      sizes="100vw"
+      sizes="sm:100vw md:100vw lg:100vw xl:100vw"
     />
     <div ref="headlineEl" class="relative max-w-7xl mx-auto px-6 py-24">
       <p data-anim class="text-jays-red font-medium tracking-widest uppercase text-sm mb-4">The Renovated Rogers Centre</p>
