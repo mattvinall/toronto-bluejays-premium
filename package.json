@@ -7,7 +7,12 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "test:unit": "vitest run",
+    "test:unit:watch": "vitest",
+    "test:e2e": "playwright test",
+    "typecheck": "nuxi typecheck",
+    "lint": "eslint . --ext .vue,.ts,.js"
   },
   "dependencies": {
     "@pinia/nuxt": "^0.11.3",
@@ -28,10 +33,17 @@
   },
   "devDependencies": {
     "@nuxt/image": "^2.0.0",
+    "@nuxt/test-utils": "^4.0.3",
+    "@playwright/test": "^1.60.0",
     "@tailwindcss/vite": "^4.3.0",
+    "@vitest/coverage-v8": "^4.1.6",
+    "@vue/test-utils": "^2.4.10",
     "@vueuse/nuxt": "^14.3.0",
+    "happy-dom": "^20.9.0",
+    "playwright": "^1.60.0",
     "tailwindcss": "^4.3.0",
     "typescript": "^6.0.3",
+    "vitest": "^4.1.6",
     "vue-tsc": "^3.2.9"
   }
 }
