@@ -15,10 +15,7 @@
     ],
     "images": {
       "hero": { "src": "/images/venues/td-clubhouse/hero.jpg", "alt": "TD Clubhouse interior with view of the field", "width": 1920, "height": 1080 },
-      "gallery": [
-        { "src": "/images/venues/td-clubhouse/gallery-1.jpg", "alt": "Dining area", "width": 1280, "height": 720 },
-        { "src": "/images/venues/td-clubhouse/gallery-2.jpg", "alt": "Bar service", "width": 1280, "height": 720 }
-      ]
+      "gallery": []
     },
     "pricing": { "perGameFrom": 350, "perGameTo": 750, "note": "Per-guest, all-inclusive. Pricing varies by opponent." },
     "location": { "level": "Field", "section": "Behind home plate", "coords": { "x": 50, "y": 75 } },
@@ -39,9 +36,7 @@
     ],
     "images": {
       "hero": { "src": "/images/venues/westjet-flight-deck/hero.jpg", "alt": "WestJet Flight Deck overlooking centre field", "width": 1920, "height": 1080 },
-      "gallery": [
-        { "src": "/images/venues/westjet-flight-deck/gallery-1.jpg", "alt": "Group seating", "width": 1280, "height": 720 }
-      ]
+      "gallery": []
     },
     "pricing": { "perGameFrom": 200, "perGameTo": 425, "note": "Per-guest, includes food and beverage package." },
     "location": { "level": "200", "section": "Centre field", "coords": { "x": 50, "y": 15 } },
