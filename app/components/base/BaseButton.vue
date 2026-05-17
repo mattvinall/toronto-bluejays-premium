@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { resolveComponent } from 'vue'
+
 type Variant = 'primary' | 'ghost' | 'link' | 'accent' | 'on-dark'
 type Size = 'sm' | 'md' | 'lg'
 
@@ -38,16 +40,22 @@ const classes = computed(() => [
   variantClasses[props.variant],
   sizeClasses[props.size]
 ])
+
+const tag = computed(() => {
+  if (props.as === 'NuxtLink' && props.to) return resolveComponent('NuxtLink')
+  if (props.as === 'a' && props.href) return 'a'
+  return 'button'
+})
+
+const extraProps = computed(() => {
+  if (props.as === 'NuxtLink' && props.to) return { to: props.to }
+  if (props.as === 'a' && props.href) return { href: props.href }
+  return { type: props.type, disabled: props.disabled }
+})
 </script>
 
 <template>
-  <NuxtLink v-if="as === 'NuxtLink' && to" :to="to" :class="classes">
+  <component :is="tag" v-bind="extraProps" :class="classes">
     <slot />
-  </NuxtLink>
-  <a v-else-if="as === 'a' && href" :href="href" :class="classes">
-    <slot />
-  </a>
-  <button v-else :type="type" :disabled="disabled" :class="classes">
-    <slot />
-  </button>
+  </component>
 </template>
