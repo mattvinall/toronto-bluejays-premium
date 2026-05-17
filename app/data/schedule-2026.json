@@ -1,0 +1,14 @@
+[
+  { "id": "2026-04-09-tor-nyy", "date": "2026-04-09", "opponent": "New York Yankees", "opponentLogo": "/images/teams/nyy.svg", "isHome": true, "firstPitch": "19:07", "promotion": "Home Opener", "tier": "marquee" },
+  { "id": "2026-04-25-tor-bos", "date": "2026-04-25", "opponent": "Boston Red Sox", "opponentLogo": "/images/teams/bos.svg", "isHome": true, "firstPitch": "19:07", "tier": "premium" },
+  { "id": "2026-05-11-tor-tex", "date": "2026-05-11", "opponent": "Texas Rangers", "opponentLogo": "/images/teams/tex.svg", "isHome": true, "firstPitch": "19:07", "tier": "standard" },
+  { "id": "2026-05-23-tor-laa", "date": "2026-05-23", "opponent": "Los Angeles Angels", "opponentLogo": "/images/teams/laa.svg", "isHome": true, "firstPitch": "15:07", "promotion": "Bobblehead Day", "tier": "premium" },
+  { "id": "2026-06-14-tor-tb", "date": "2026-06-14", "opponent": "Tampa Bay Rays", "opponentLogo": "/images/teams/tb.svg", "isHome": true, "firstPitch": "13:07", "tier": "standard" },
+  { "id": "2026-06-28-tor-nyy", "date": "2026-06-28", "opponent": "New York Yankees", "opponentLogo": "/images/teams/nyy.svg", "isHome": true, "firstPitch": "19:07", "tier": "marquee" },
+  { "id": "2026-07-04-tor-bal", "date": "2026-07-04", "opponent": "Baltimore Orioles", "opponentLogo": "/images/teams/bal.svg", "isHome": true, "firstPitch": "13:07", "promotion": "Independence Weekend", "tier": "premium" },
+  { "id": "2026-07-19-tor-cle", "date": "2026-07-19", "opponent": "Cleveland Guardians", "opponentLogo": "/images/teams/cle.svg", "isHome": true, "firstPitch": "19:07", "tier": "standard" },
+  { "id": "2026-08-02-tor-laa", "date": "2026-08-02", "opponent": "Los Angeles Angels", "opponentLogo": "/images/teams/laa.svg", "isHome": true, "firstPitch": "13:07", "tier": "standard" },
+  { "id": "2026-08-16-tor-bos", "date": "2026-08-16", "opponent": "Boston Red Sox", "opponentLogo": "/images/teams/bos.svg", "isHome": true, "firstPitch": "19:07", "tier": "premium" },
+  { "id": "2026-09-08-tor-nyy", "date": "2026-09-08", "opponent": "New York Yankees", "opponentLogo": "/images/teams/nyy.svg", "isHome": true, "firstPitch": "19:07", "tier": "marquee" },
+  { "id": "2026-09-22-tor-det", "date": "2026-09-22", "opponent": "Detroit Tigers", "opponentLogo": "/images/teams/det.svg", "isHome": true, "firstPitch": "19:07", "promotion": "Fan Appreciation", "tier": "premium" }
+]
