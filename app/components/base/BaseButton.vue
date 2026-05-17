@@ -1,5 +1,5 @@
 <script setup lang="ts">
-type Variant = 'primary' | 'ghost' | 'link'
+type Variant = 'primary' | 'ghost' | 'link' | 'accent' | 'on-dark'
 type Size = 'sm' | 'md' | 'lg'
 
 const props = withDefaults(defineProps<{
@@ -20,7 +20,9 @@ const props = withDefaults(defineProps<{
 const variantClasses: Record<Variant, string> = {
   primary: 'bg-jays-navy text-white hover:bg-jays-blue active:bg-jays-blue/90',
   ghost: 'bg-transparent text-jays-navy hover:bg-jays-navy/10',
-  link: 'bg-transparent text-jays-navy underline underline-offset-4 hover:text-jays-blue'
+  link: 'bg-transparent text-jays-navy underline underline-offset-4 hover:text-jays-blue',
+  accent: 'bg-jays-red text-white hover:bg-jays-red/90 active:bg-jays-red/80',
+  'on-dark': 'bg-white/10 text-white border border-white/40 hover:bg-white/20'
 }
 
 const sizeClasses: Record<Size, string> = {
