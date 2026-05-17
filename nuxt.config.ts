@@ -17,6 +17,15 @@ export default defineNuxtConfig({
   },
   css: ['~/assets/css/main.css'],
   vite: { plugins: [tailwindcss()] },
+  modules: [
+    '@pinia/nuxt',
+    '@nuxt/image',
+    '@vueuse/nuxt'
+  ],
+  image: {
+    formats: ['avif', 'webp'],
+    screens: { sm: 480, md: 768, lg: 1280, xl: 1920 }
+  },
   app: {
     head: {
       htmlAttrs: { lang: 'en' },
