@@ -23,7 +23,7 @@ export default defineNuxtConfig({
     '@vueuse/nuxt'
   ],
   image: {
-    formats: ['avif', 'webp'],
+    format: ['avif', 'webp'],
     screens: { sm: 480, md: 768, lg: 1280, xl: 1920 }
   },
   app: {
