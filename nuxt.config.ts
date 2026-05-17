@@ -19,7 +19,12 @@ export default defineNuxtConfig({
     }
   },
   css: ['~/assets/css/main.css'],
-  vite: { plugins: [tailwindcss()] },
+  vite: {
+    plugins: [tailwindcss()],
+    optimizeDeps: {
+      include: ['gsap']
+    }
+  },
   components: [
     { path: '~/components', pathPrefix: false }
   ],
