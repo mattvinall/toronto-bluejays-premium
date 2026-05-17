@@ -15,7 +15,10 @@
     ],
     "images": {
       "hero": { "src": "/images/venues/td-clubhouse/hero.jpg", "alt": "TD Clubhouse interior with view of the field", "width": 1920, "height": 1080 },
-      "gallery": []
+      "gallery": [
+        { "src": "/images/venues/td-clubhouse/gallery-1.webp", "alt": "TD Clubhouse lounge seating and bar", "width": 1600, "height": 1067, "caption": "Lounge & bar" },
+        { "src": "/images/venues/td-clubhouse/gallery-2.webp", "alt": "TD Clubhouse dining area with chef-curated menu", "width": 1600, "height": 1067, "caption": "All-inclusive dining" }
+      ]
     },
     "pricing": { "perGameFrom": 350, "perGameTo": 750, "note": "Per-guest, all-inclusive. Pricing varies by opponent." },
     "location": { "level": "Field", "section": "Behind home plate", "coords": { "x": 50, "y": 75 } },
@@ -36,7 +39,10 @@
     ],
     "images": {
       "hero": { "src": "/images/venues/westjet-flight-deck/hero.jpg", "alt": "WestJet Flight Deck overlooking centre field", "width": 1920, "height": 1080 },
-      "gallery": []
+      "gallery": [
+        { "src": "/images/venues/westjet-flight-deck/gallery-1.jpg", "alt": "WestJet Flight Deck group games and social area", "width": 1200, "height": 900, "caption": "Games & social area" },
+        { "src": "/images/venues/westjet-flight-deck/gallery-2.jpg", "alt": "WestJet Flight Deck bleacher seating with field view", "width": 1200, "height": 900, "caption": "Centre-field views" }
+      ]
     },
     "pricing": { "perGameFrom": 200, "perGameTo": 425, "note": "Per-guest, includes food and beverage package." },
     "location": { "level": "200", "section": "Centre field", "coords": { "x": 50, "y": 15 } },
@@ -57,7 +63,10 @@
     ],
     "images": {
       "hero": { "src": "/images/venues/park-social/hero.jpg", "alt": "Park Social patio at dusk", "width": 1920, "height": 1080 },
-      "gallery": []
+      "gallery": [
+        { "src": "/images/venues/park-social/gallery-1.jpg", "alt": "Park Social colourful lounge seating and games", "width": 1920, "height": 1080, "caption": "Lounge & games" },
+        { "src": "/images/venues/park-social/gallery-2.jpg", "alt": "Park Social wide view of social space", "width": 1200, "height": 900, "caption": "Social space overview" }
+      ]
     },
     "pricing": { "perGameFrom": 175, "perGameTo": 325 },
     "location": { "level": "500", "section": "Outfield", "coords": { "x": 30, "y": 25 } },
@@ -78,7 +87,10 @@
     ],
     "images": {
       "hero": { "src": "/images/venues/the-catch-bar/hero.jpg", "alt": "The Catch Bar with view of home bullpen", "width": 1920, "height": 1080 },
-      "gallery": []
+      "gallery": [
+        { "src": "/images/venues/the-catch-bar/gallery-1.jpg", "alt": "The Catch Bar interior bar program", "width": 1920, "height": 1080, "caption": "Bar program" },
+        { "src": "/images/venues/the-catch-bar/gallery-2.jpg", "alt": "Premium cocktail bar setting with field-side views", "width": 1200, "height": 900, "caption": "Field-side cocktails" }
+      ]
     },
     "pricing": { "perGameFrom": 145, "perGameTo": 250 },
     "location": { "level": "100", "section": "Behind home bullpen", "coords": { "x": 35, "y": 80 } },
@@ -101,7 +113,10 @@
     ],
     "images": {
       "hero": { "src": "/images/venues/td-executive-suites/hero.jpg", "alt": "TD Executive Suite interior", "width": 1920, "height": 1080 },
-      "gallery": []
+      "gallery": [
+        { "src": "/images/venues/td-executive-suites/gallery-1.webp", "alt": "Private club lounge appointed for premium hosting", "width": 1600, "height": 1067, "caption": "Premium hosting lounge" },
+        { "src": "/images/venues/td-executive-suites/gallery-2.webp", "alt": "Premium entrance lobby at Rogers Centre", "width": 1600, "height": 1067, "caption": "Premium entrance lobby" }
+      ]
     },
     "pricing": { "perGameFrom": 4500, "perGameTo": 16000, "note": "Per-suite, exclusive of catering. Seasonal contracts available." },
     "location": { "level": "200", "section": "Sideline", "coords": { "x": 70, "y": 50 } },
