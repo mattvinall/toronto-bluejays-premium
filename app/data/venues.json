@@ -1,0 +1,115 @@
+[
+  {
+    "slug": "td-clubhouse",
+    "name": "TD Clubhouse",
+    "type": "club",
+    "tagline": "All-inclusive luxury at field level.",
+    "description": "The TD Clubhouse offers field-level access with all-inclusive premium dining, full bar service, and exclusive views of the home dugout. Designed for the most discerning fans, this is the closest you can get to the action while enjoying chef-curated cuisine.",
+    "capacity": { "min": 2, "max": 250, "recommended": 100 },
+    "amenities": [
+      { "icon": "champagne", "label": "All-inclusive food & beverage" },
+      { "icon": "key", "label": "Private entrance" },
+      { "icon": "snow", "label": "Climate-controlled lounge" },
+      { "icon": "tv", "label": "Multiple HDTVs" },
+      { "icon": "car", "label": "VIP parking" }
+    ],
+    "images": {
+      "hero": { "src": "/images/venues/td-clubhouse/hero.jpg", "alt": "TD Clubhouse interior with view of the field", "width": 1920, "height": 1080 },
+      "gallery": [
+        { "src": "/images/venues/td-clubhouse/gallery-1.jpg", "alt": "Dining area", "width": 1280, "height": 720 },
+        { "src": "/images/venues/td-clubhouse/gallery-2.jpg", "alt": "Bar service", "width": 1280, "height": 720 }
+      ]
+    },
+    "pricing": { "perGameFrom": 350, "perGameTo": 750, "note": "Per-guest, all-inclusive. Pricing varies by opponent." },
+    "location": { "level": "Field", "section": "Behind home plate", "coords": { "x": 50, "y": 75 } },
+    "bestFor": ["Corporate hospitality", "VIP clients", "Special occasions"]
+  },
+  {
+    "slug": "westjet-flight-deck",
+    "name": "WestJet Flight Deck",
+    "type": "group-space",
+    "tagline": "The biggest party in the ballpark.",
+    "description": "Located in centre field, the WestJet Flight Deck is a brewery-style group space with panoramic views, an industrial-chic design, and capacity for groups from 50 to 300. Perfect for corporate outings, milestone celebrations, and group experiences that need room to breathe.",
+    "capacity": { "min": 50, "max": 300, "recommended": 150 },
+    "amenities": [
+      { "icon": "beer", "label": "Full-service bar" },
+      { "icon": "users", "label": "Group-style seating" },
+      { "icon": "music", "label": "Sound system & AV" },
+      { "icon": "ticket", "label": "Game tickets included" }
+    ],
+    "images": {
+      "hero": { "src": "/images/venues/westjet-flight-deck/hero.jpg", "alt": "WestJet Flight Deck overlooking centre field", "width": 1920, "height": 1080 },
+      "gallery": [
+        { "src": "/images/venues/westjet-flight-deck/gallery-1.jpg", "alt": "Group seating", "width": 1280, "height": 720 }
+      ]
+    },
+    "pricing": { "perGameFrom": 200, "perGameTo": 425, "note": "Per-guest, includes food and beverage package." },
+    "location": { "level": "200", "section": "Centre field", "coords": { "x": 50, "y": 15 } },
+    "bestFor": ["Corporate events", "Birthday parties", "Group outings"]
+  },
+  {
+    "slug": "park-social",
+    "name": "Park Social",
+    "type": "patio",
+    "tagline": "Open-air social club with skyline views.",
+    "description": "Park Social blends the energy of a downtown patio with unobstructed views of the city and the field. Multi-level standing-and-seated space designed for groups that want a more social, mingling-friendly experience.",
+    "capacity": { "min": 20, "max": 150, "recommended": 75 },
+    "amenities": [
+      { "icon": "umbrella", "label": "Open-air patio" },
+      { "icon": "city", "label": "Skyline views" },
+      { "icon": "cocktail", "label": "Craft cocktails" },
+      { "icon": "users", "label": "Lounge seating" }
+    ],
+    "images": {
+      "hero": { "src": "/images/venues/park-social/hero.jpg", "alt": "Park Social patio at dusk", "width": 1920, "height": 1080 },
+      "gallery": []
+    },
+    "pricing": { "perGameFrom": 175, "perGameTo": 325 },
+    "location": { "level": "500", "section": "Outfield", "coords": { "x": 30, "y": 25 } },
+    "bestFor": ["Social events", "Networking", "Younger audiences"]
+  },
+  {
+    "slug": "the-catch-bar",
+    "name": "The Catch Bar",
+    "type": "club",
+    "tagline": "Where every seat is the best seat.",
+    "description": "The Catch Bar is a 21+ premium club above the home bullpen, with a high-end cocktail program, shareable plates, and stadium seats featuring the closest sightline to the home pitcher's warmup.",
+    "capacity": { "min": 2, "max": 80, "recommended": 40 },
+    "amenities": [
+      { "icon": "cocktail", "label": "Premium bar program" },
+      { "icon": "binoculars", "label": "Bullpen sightline" },
+      { "icon": "calendar", "label": "21+ only" },
+      { "icon": "tv", "label": "HDTVs" }
+    ],
+    "images": {
+      "hero": { "src": "/images/venues/the-catch-bar/hero.jpg", "alt": "The Catch Bar with view of home bullpen", "width": 1920, "height": 1080 },
+      "gallery": []
+    },
+    "pricing": { "perGameFrom": 145, "perGameTo": 250 },
+    "location": { "level": "100", "section": "Behind home bullpen", "coords": { "x": 35, "y": 80 } },
+    "bestFor": ["Date nights", "Small groups", "Adult experiences"]
+  },
+  {
+    "slug": "td-executive-suites",
+    "name": "TD Executive Suites",
+    "type": "suite",
+    "tagline": "Your private box at Rogers Centre.",
+    "description": "TD Executive Suites are private climate-controlled suites with seating for 16-24 guests, an in-suite host, customizable catering, and the privacy your group needs. Suite contracts available on a per-game or seasonal basis.",
+    "capacity": { "min": 16, "max": 24, "recommended": 20 },
+    "amenities": [
+      { "icon": "key", "label": "Private suite" },
+      { "icon": "concierge", "label": "Dedicated suite host" },
+      { "icon": "chef", "label": "Customizable catering" },
+      { "icon": "snow", "label": "Climate-controlled" },
+      { "icon": "car", "label": "Premium parking" },
+      { "icon": "tv", "label": "Multiple HDTVs" }
+    ],
+    "images": {
+      "hero": { "src": "/images/venues/td-executive-suites/hero.jpg", "alt": "TD Executive Suite interior", "width": 1920, "height": 1080 },
+      "gallery": []
+    },
+    "pricing": { "perGameFrom": 4500, "perGameTo": 16000, "note": "Per-suite, exclusive of catering. Seasonal contracts available." },
+    "location": { "level": "200", "section": "Sideline", "coords": { "x": 70, "y": 50 } },
+    "bestFor": ["Corporate clients", "Private entertainment", "High-stakes hosting"]
+  }
+]
