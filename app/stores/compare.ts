@@ -21,9 +21,10 @@ export const useCompareStore = defineStore('compare', () => {
   }
 
   const has = (slug: string): boolean => slugs.value.includes(slug)
+  const clear = (): void => { slugs.value = [] }
   const count = computed(() => slugs.value.length)
 
-  return { slugs, add, remove, toggle, has, count, MAX }
+  return { slugs, add, remove, toggle, has, clear, count, MAX }
 }, {
   persist: true
 })

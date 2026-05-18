@@ -28,11 +28,12 @@ const onToggle = (e: MouseEvent) => {
       type="button"
       :aria-label="isSaved ? `Remove ${venue.name} from compare list` : `Add ${venue.name} to compare list`"
       :aria-pressed="isSaved"
-      class="absolute top-3 right-3 z-10 w-10 h-10 rounded-full bg-white/90 backdrop-blur flex items-center justify-center text-xl transition-transform hover:scale-110"
-      :class="isSaved ? 'text-jays-red' : 'text-slate-400'"
+      class="absolute top-3 right-3 z-10 inline-flex items-center gap-1.5 h-9 px-3 rounded-full text-sm font-semibold backdrop-blur shadow-sm transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-jays-red"
+      :class="isSaved ? 'bg-jays-red text-white hover:bg-jays-red/90' : 'bg-white/95 text-jays-navy hover:bg-white'"
       @click="onToggle"
     >
-      {{ isSaved ? '♥' : '♡' }}
+      <span aria-hidden="true" class="text-base leading-none">{{ isSaved ? '✓' : '+' }}</span>
+      {{ isSaved ? 'Comparing' : 'Compare' }}
     </button>
     <div class="aspect-[4/3] overflow-hidden bg-slate-100">
       <NuxtImg

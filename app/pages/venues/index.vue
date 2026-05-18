@@ -6,7 +6,7 @@ const { filtered, type, capacityMin, capacityMax, setType, setCapacityRange, cle
 </script>
 
 <template>
-  <div class="max-w-7xl mx-auto px-6 py-16">
+  <div class="max-w-7xl mx-auto px-6 py-16 pb-40">
     <h1 class="font-display font-bold text-5xl mb-2">Premium Venues</h1>
     <p class="text-lg text-slate-600 mb-10">Find the space that fits your group, your occasion, and your budget.</p>
 
@@ -30,5 +30,7 @@ const { filtered, type, capacityMin, capacityMax, setType, setCapacityRange, cle
     <div v-if="filtered.length === 0" class="mt-12 text-center text-slate-500">
       No venues match these filters.
     </div>
+
+    <CompareTray />
   </div>
 </template>
